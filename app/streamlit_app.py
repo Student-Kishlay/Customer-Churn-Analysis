@@ -105,6 +105,15 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def risk_level(proba: float) -> str:
+    if proba < 0.30:
+        return "Low"
+    elif proba < 0.60:
+        return "Medium"
+    else:
+        return "High"
+
+
 def predict_churn(customer_dict: dict):
     """Return probability and risk level for one customer."""
     if model is None or preprocessor is None:
@@ -118,14 +127,35 @@ def predict_churn(customer_dict: dict):
     processed = preprocessor.transform(input_df)
     proba = model.predict_proba(processed)[0, 1]
 
-    if proba < 0.30:
-        risk = "Low"
-    elif proba < 0.60:
-        risk = "Medium"
-    else:
-        risk = "High"
+    return float(proba), risk_level(proba)
 
-    return float(proba), risk
+
+# Raw columns the model expects (same schema as the Telco dataset,
+# minus customerID/Churn which are identifiers/target, not features)
+REQUIRED_COLUMNS = [
+    "gender", "SeniorCitizen", "Partner", "Dependents", "tenure",
+    "PhoneService", "MultipleLines", "InternetService", "OnlineSecurity",
+    "OnlineBackup", "DeviceProtection", "TechSupport", "StreamingTV",
+    "StreamingMovies", "Contract", "PaperlessBilling", "PaymentMethod",
+    "MonthlyCharges", "TotalCharges",
+]
+
+
+def clean_uploaded_data(df: pd.DataFrame) -> pd.DataFrame:
+    """Coerce raw uploaded columns to the types notebook 02 produces."""
+    df = df.copy()
+    df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce").fillna(0)
+    df["MonthlyCharges"] = pd.to_numeric(df["MonthlyCharges"], errors="coerce")
+    df["tenure"] = pd.to_numeric(df["tenure"], errors="coerce")
+    df["SeniorCitizen"] = pd.to_numeric(df["SeniorCitizen"], errors="coerce").fillna(0).astype(int)
+    return df
+
+
+def predict_batch(df: pd.DataFrame) -> np.ndarray:
+    """Return churn probabilities for every row in df."""
+    engineered = engineer_features(df)
+    processed = preprocessor.transform(engineered)
+    return model.predict_proba(processed)[:, 1]
 
 
 # -------------------------------------------------
@@ -135,7 +165,7 @@ st.sidebar.title("📉 Churn Predictor")
 st.sidebar.markdown("---")
 page = st.sidebar.radio(
     "Navigate",
-    ["🏠 Home", "🔮 Predict Churn", "📊 Insights Dashboard", "ℹ️ About"]
+    ["🏠 Home", "🔮 Predict Churn", "📁 Batch Upload", "📊 Insights Dashboard", "ℹ️ About"]
 )
 
 st.sidebar.markdown("---")
@@ -316,7 +346,92 @@ elif page == "🔮 Predict Churn":
                 )
 
 # -------------------------------------------------
-# PAGE 3: INSIGHTS DASHBOARD
+# PAGE 3: BATCH UPLOAD
+# -------------------------------------------------
+elif page == "📁 Batch Upload":
+    st.title("📁 Batch Churn Prediction")
+    st.markdown("Upload a CSV of customers to score all of them at once.")
+
+    if model is None or preprocessor is None:
+        st.error(
+            "Model or preprocessor not found. "
+            "Run the preprocessing and modeling notebooks first."
+        )
+        st.stop()
+
+    with st.expander("ℹ️ Expected file format"):
+        st.markdown(
+            "Your CSV needs these columns (an optional `customerID` is kept "
+            "for reference; any `Churn` column is ignored):"
+        )
+        st.code(", ".join(REQUIRED_COLUMNS))
+
+        template = pd.DataFrame([{
+            "customerID": "0000-EXAMPLE",
+            "gender": "Female", "SeniorCitizen": 0, "Partner": "Yes", "Dependents": "No",
+            "tenure": 12, "PhoneService": "Yes", "MultipleLines": "No",
+            "InternetService": "Fiber optic", "OnlineSecurity": "No", "OnlineBackup": "No",
+            "DeviceProtection": "No", "TechSupport": "No", "StreamingTV": "No",
+            "StreamingMovies": "No", "Contract": "Month-to-month", "PaperlessBilling": "Yes",
+            "PaymentMethod": "Electronic check", "MonthlyCharges": 70.35, "TotalCharges": 845.5,
+        }])
+        st.download_button(
+            "⬇️ Download template CSV",
+            data=template.to_csv(index=False).encode("utf-8"),
+            file_name="churn_upload_template.csv",
+            mime="text/csv",
+        )
+
+    uploaded_file = st.file_uploader("Upload customer CSV", type=["csv"])
+
+    if uploaded_file is not None:
+        try:
+            raw_df = pd.read_csv(uploaded_file)
+        except Exception as e:
+            st.error(f"Could not read that file as CSV: {e}")
+            st.stop()
+
+        missing = [c for c in REQUIRED_COLUMNS if c not in raw_df.columns]
+        if missing:
+            st.error(f"Missing required column(s): {', '.join(missing)}")
+            st.stop()
+
+        with st.spinner(f"Scoring {len(raw_df):,} customers..."):
+            clean_df = clean_uploaded_data(raw_df)
+            probabilities = predict_batch(clean_df)
+
+        results = raw_df.copy()
+        results["ChurnProbability"] = probabilities
+        results["RiskLevel"] = [risk_level(p) for p in probabilities]
+        results = results.sort_values("ChurnProbability", ascending=False)
+
+        st.markdown("---")
+        st.subheader("Summary")
+        c1, c2, c3, c4 = st.columns(4)
+        with c1:
+            st.metric("Customers Scored", f"{len(results):,}")
+        with c2:
+            st.metric("High Risk", f"{(results['RiskLevel'] == 'High').sum():,}")
+        with c3:
+            st.metric("Medium Risk", f"{(results['RiskLevel'] == 'Medium').sum():,}")
+        with c4:
+            st.metric("Avg. Churn Probability", f"{results['ChurnProbability'].mean()*100:.1f}%")
+
+        st.bar_chart(results["RiskLevel"].value_counts())
+
+        st.markdown("---")
+        st.subheader("Results")
+        st.dataframe(results, use_container_width=True)
+
+        st.download_button(
+            "⬇️ Download results as CSV",
+            data=results.to_csv(index=False).encode("utf-8"),
+            file_name="churn_predictions.csv",
+            mime="text/csv",
+        )
+
+# -------------------------------------------------
+# PAGE 4: INSIGHTS DASHBOARD
 # -------------------------------------------------
 elif page == "📊 Insights Dashboard":
     st.title("📊 Churn Insights Dashboard")
@@ -385,7 +500,7 @@ elif page == "📊 Insights Dashboard":
     )
 
 # -------------------------------------------------
-# PAGE 4: ABOUT
+# PAGE 5: ABOUT
 # -------------------------------------------------
 elif page == "ℹ️ About":
     st.title("ℹ️ About This Project")
