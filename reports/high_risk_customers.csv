@@ -1,0 +1,705 @@
+tenure,Contract,InternetService,MonthlyCharges,TechSupport,PaymentMethod,Churn_Probability,Churn
+1,Month-to-month,Fiber optic,100.8,No,Electronic check,0.9513703047007224,1
+1,Month-to-month,Fiber optic,101.45,No,Electronic check,0.944559661074327,1
+1,Month-to-month,Fiber optic,90.6,No,Electronic check,0.9354193645988017,1
+1,Month-to-month,Fiber optic,95.1,No,Electronic check,0.9283466159174002,1
+1,Month-to-month,Fiber optic,100.25,No,Credit card (automatic),0.9274581143245871,1
+1,Month-to-month,Fiber optic,91.3,No,Electronic check,0.9233439131179699,1
+1,Month-to-month,Fiber optic,93.55,No,Electronic check,0.9223390773434685,1
+1,Month-to-month,Fiber optic,94.0,No,Electronic check,0.9223390773434685,1
+1,Month-to-month,Fiber optic,99.75,No,Electronic check,0.9194950152793806,1
+1,Month-to-month,Fiber optic,94.6,No,Electronic check,0.9185874116316604,1
+1,Month-to-month,Fiber optic,95.45,No,Electronic check,0.9185874116316604,1
+1,Month-to-month,Fiber optic,90.75,No,Electronic check,0.9129672183363511,1
+1,Month-to-month,Fiber optic,90.55,No,Electronic check,0.9129672183363511,1
+1,Month-to-month,Fiber optic,93.85,No,Electronic check,0.9118393483825461,1
+1,Month-to-month,Fiber optic,90.85,No,Credit card (automatic),0.9118344083702137,1
+1,Month-to-month,Fiber optic,76.45,No,Electronic check,0.9102280725363302,1
+10,Month-to-month,Fiber optic,100.6,No,Electronic check,0.9068681978542852,1
+1,Month-to-month,Fiber optic,90.85,No,Electronic check,0.9061300193647598,1
+1,Month-to-month,Fiber optic,93.3,No,Electronic check,0.9049227725187253,1
+1,Month-to-month,Fiber optic,75.75,No,Electronic check,0.9046123131888504,1
+1,Month-to-month,Fiber optic,79.55,No,Mailed check,0.9031080251669911,1
+1,Month-to-month,Fiber optic,88.8,No,Electronic check,0.8989579256761843,1
+1,Month-to-month,Fiber optic,77.15,No,Electronic check,0.8982715358379781,1
+4,Month-to-month,Fiber optic,101.7,No,Electronic check,0.8970782097180587,1
+10,Month-to-month,Fiber optic,98.5,No,Electronic check,0.8969585260137255,1
+1,Month-to-month,Fiber optic,79.15,No,Electronic check,0.8967990319275222,1
+5,Month-to-month,Fiber optic,100.5,No,Electronic check,0.8947730952033238,1
+1,Month-to-month,Fiber optic,80.2,No,Mailed check,0.8943551861158231,1
+3,Month-to-month,Fiber optic,105.0,No,Electronic check,0.8936140486760318,1
+1,Month-to-month,Fiber optic,85.05,No,Electronic check,0.8923437496243464,1
+1,Month-to-month,Fiber optic,85.7,No,Electronic check,0.891435225442372,1
+1,Month-to-month,Fiber optic,86.05,No,Electronic check,0.891435225442372,1
+1,Month-to-month,Fiber optic,79.2,No,Electronic check,0.8910374902837727,1
+1,Month-to-month,Fiber optic,79.1,No,Electronic check,0.8910374902837727,1
+3,Month-to-month,Fiber optic,101.55,No,Bank transfer (automatic),0.8869984664670494,1
+1,Month-to-month,Fiber optic,94.4,No,Electronic check,0.8864607986854357,1
+6,Month-to-month,Fiber optic,105.3,No,Electronic check,0.8852784132757808,1
+6,Month-to-month,Fiber optic,98.25,No,Electronic check,0.8828667479220609,1
+8,Month-to-month,Fiber optic,100.6,No,Electronic check,0.8824827595635132,1
+11,Month-to-month,Fiber optic,99.55,No,Electronic check,0.8816466698007884,1
+8,Month-to-month,Fiber optic,99.65,No,Electronic check,0.8801364079937919,1
+4,Month-to-month,Fiber optic,100.2,No,Electronic check,0.8790689135996347,1
+4,Month-to-month,Fiber optic,94.3,No,Electronic check,0.8790568401616982,1
+1,Month-to-month,Fiber optic,85.0,No,Electronic check,0.8783236519122778,1
+2,Month-to-month,Fiber optic,94.2,No,Bank transfer (automatic),0.878090665467588,1
+1,Month-to-month,Fiber optic,79.7,No,Electronic check,0.877884461753827,1
+1,Month-to-month,Fiber optic,79.25,No,Electronic check,0.877884461753827,1
+1,Month-to-month,Fiber optic,80.25,No,Electronic check,0.8768707512127469,1
+1,Month-to-month,Fiber optic,79.95,No,Electronic check,0.8768707512127469,1
+1,Month-to-month,Fiber optic,79.5,No,Electronic check,0.8768707512127469,1
+1,Month-to-month,Fiber optic,79.55,No,Electronic check,0.8768707512127469,1
+1,Month-to-month,Fiber optic,79.05,No,Electronic check,0.8768707512127469,1
+1,Month-to-month,Fiber optic,78.95,No,Electronic check,0.8768707512127469,1
+1,Month-to-month,Fiber optic,79.65,No,Electronic check,0.8768707512127469,1
+1,Month-to-month,Fiber optic,95.65,No,Mailed check,0.8767581958559185,1
+7,Month-to-month,Fiber optic,99.25,No,Electronic check,0.8763204931682271,1
+11,Month-to-month,Fiber optic,100.75,No,Electronic check,0.8758128557943133,1
+1,Month-to-month,Fiber optic,85.45,No,Mailed check,0.875503036826872,1
+9,Month-to-month,Fiber optic,100.5,No,Electronic check,0.875229843248584,1
+4,Month-to-month,Fiber optic,97.95,No,Electronic check,0.8750168782570872,1
+1,Month-to-month,Fiber optic,86.6,No,Electronic check,0.8747101150836004,1
+1,Month-to-month,Fiber optic,84.65,No,Mailed check,0.8744723842168536,1
+10,Month-to-month,Fiber optic,98.5,Yes,Electronic check,0.8740796677882693,1
+1,Month-to-month,Fiber optic,79.35,No,Bank transfer (automatic),0.8740212867784156,1
+1,Month-to-month,Fiber optic,84.6,No,Electronic check,0.8723679582900565,0
+2,Month-to-month,Fiber optic,93.85,No,Electronic check,0.8712372550669212,1
+1,Month-to-month,Fiber optic,79.15,No,Mailed check,0.870226174489712,0
+3,Month-to-month,Fiber optic,96.6,No,Electronic check,0.8701064560087091,1
+1,Month-to-month,Fiber optic,73.55,No,Electronic check,0.8698379223968397,1
+1,Month-to-month,Fiber optic,74.7,No,Electronic check,0.8698379223968397,1
+1,Month-to-month,Fiber optic,74.4,No,Electronic check,0.8698379223968397,1
+1,Month-to-month,Fiber optic,75.35,No,Electronic check,0.8698379223968397,1
+1,Month-to-month,Fiber optic,74.2,No,Electronic check,0.8698379223968397,1
+1,Month-to-month,Fiber optic,73.65,No,Electronic check,0.8698379223968397,1
+1,Month-to-month,Fiber optic,74.4,No,Electronic check,0.8698379223968397,1
+1,Month-to-month,Fiber optic,74.45,No,Electronic check,0.8698379223968397,1
+1,Month-to-month,DSL,36.45,No,Electronic check,0.8696513353957896,1
+1,Month-to-month,Fiber optic,79.6,No,Electronic check,0.8690518326745115,1
+2,Month-to-month,Fiber optic,95.15,No,Electronic check,0.8687406059506743,1
+1,Month-to-month,Fiber optic,85.0,No,Electronic check,0.8686432372017135,1
+1,Month-to-month,Fiber optic,75.7,No,Electronic check,0.8677678379185799,1
+1,Month-to-month,Fiber optic,79.35,No,Electronic check,0.8676090632324918,1
+11,Month-to-month,Fiber optic,99.5,No,Electronic check,0.8653734168870079,1
+1,Month-to-month,Fiber optic,80.05,No,Mailed check,0.8645783655288843,1
+1,Month-to-month,Fiber optic,69.25,No,Electronic check,0.8619226828594748,1
+1,Month-to-month,Fiber optic,69.6,No,Electronic check,0.8619226828594748,1
+1,Month-to-month,Fiber optic,69.95,No,Electronic check,0.8619226828594748,1
+1,Month-to-month,Fiber optic,69.6,No,Electronic check,0.8619226828594748,1
+1,Month-to-month,Fiber optic,69.55,No,Electronic check,0.8619226828594748,1
+1,Month-to-month,Fiber optic,69.85,No,Electronic check,0.8619226828594748,1
+1,Month-to-month,Fiber optic,69.65,No,Electronic check,0.8619226828594748,1
+4,Month-to-month,Fiber optic,95.45,No,Electronic check,0.861837244235048,1
+2,Month-to-month,Fiber optic,94.0,No,Electronic check,0.8611576815029491,1
+1,Month-to-month,Fiber optic,76.4,No,Mailed check,0.8610361657626359,1
+2,Month-to-month,Fiber optic,88.55,No,Electronic check,0.8604668815887238,1
+1,Month-to-month,Fiber optic,90.55,No,Electronic check,0.8597795325119156,1
+1,Month-to-month,Fiber optic,90.6,No,Electronic check,0.8597795325119156,1
+3,Month-to-month,Fiber optic,95.2,No,Electronic check,0.8591877910718736,1
+1,Month-to-month,Fiber optic,102.45,No,Electronic check,0.8580697337115383,1
+7,Month-to-month,Fiber optic,99.8,No,Electronic check,0.8576507667736964,1
+2,Month-to-month,Fiber optic,91.4,No,Electronic check,0.8575870345498802,1
+1,Month-to-month,Fiber optic,81.95,No,Electronic check,0.8569214852935635,1
+1,Month-to-month,Fiber optic,81.1,No,Electronic check,0.8569214852935635,1
+1,Month-to-month,Fiber optic,80.8,No,Electronic check,0.8569214852935635,1
+5,Month-to-month,Fiber optic,93.9,No,Mailed check,0.856518154459078,1
+2,Month-to-month,Fiber optic,84.05,No,Electronic check,0.8562526234373266,0
+1,Month-to-month,Fiber optic,80.55,No,Electronic check,0.8557623475492826,0
+1,Month-to-month,Fiber optic,80.55,No,Electronic check,0.8557623475492826,1
+1,Month-to-month,Fiber optic,85.45,No,Electronic check,0.8540409532324537,1
+1,Month-to-month,Fiber optic,84.85,No,Electronic check,0.8540409532324537,1
+7,Month-to-month,Fiber optic,101.95,No,Electronic check,0.8537181341693924,1
+1,Month-to-month,Fiber optic,80.85,No,Mailed check,0.8536873864540057,1
+1,Month-to-month,Fiber optic,75.1,No,Electronic check,0.8533685027920024,0
+1,Month-to-month,Fiber optic,74.9,No,Electronic check,0.8533685027920024,1
+1,Month-to-month,Fiber optic,74.95,No,Electronic check,0.8533685027920024,1
+1,Month-to-month,Fiber optic,75.45,No,Electronic check,0.8533685027920024,1
+1,Month-to-month,Fiber optic,75.3,No,Electronic check,0.8533685027920024,1
+1,Month-to-month,Fiber optic,75.1,No,Electronic check,0.8533685027920024,1
+1,Month-to-month,Fiber optic,74.5,No,Electronic check,0.8533685027920024,1
+1,Month-to-month,Fiber optic,86.0,No,Electronic check,0.8531347798276648,1
+7,Month-to-month,Fiber optic,94.1,No,Electronic check,0.8514612299479222,0
+4,Month-to-month,Fiber optic,85.95,No,Electronic check,0.8512205363958041,1
+3,Month-to-month,Fiber optic,94.6,No,Electronic check,0.8511475546159178,1
+12,Month-to-month,Fiber optic,98.1,No,Electronic check,0.8507535246617997,1
+1,Month-to-month,Fiber optic,78.45,No,Electronic check,0.8503487726649505,1
+1,Month-to-month,Fiber optic,88.35,No,Electronic check,0.8502155566419414,1
+1,Month-to-month,Fiber optic,89.1,No,Electronic check,0.8502155566419414,1
+1,Month-to-month,Fiber optic,85.55,No,Credit card (automatic),0.8493343826191844,1
+7,Month-to-month,Fiber optic,98.05,No,Bank transfer (automatic),0.8491739514150854,1
+2,Month-to-month,Fiber optic,85.55,No,Electronic check,0.8474156914798223,1
+1,Month-to-month,Fiber optic,81.05,No,Electronic check,0.8468371400637357,0
+1,Month-to-month,Fiber optic,74.45,No,Mailed check,0.8460338514529607,1
+5,Month-to-month,Fiber optic,94.85,No,Bank transfer (automatic),0.8454907057932132,1
+5,Month-to-month,Fiber optic,85.2,No,Electronic check,0.8452858582760873,1
+1,Month-to-month,Fiber optic,69.75,No,Electronic check,0.8449294825731034,1
+1,Month-to-month,Fiber optic,69.65,No,Electronic check,0.8449294825731034,1
+2,Month-to-month,Fiber optic,85.65,No,Electronic check,0.8445395712309677,1
+1,Month-to-month,Fiber optic,74.35,No,Electronic check,0.8430795960010022,1
+1,Month-to-month,Fiber optic,74.5,No,Electronic check,0.8430795960010022,1
+12,Month-to-month,Fiber optic,96.05,No,Electronic check,0.8429338368021517,1
+2,Month-to-month,Fiber optic,96.0,No,Electronic check,0.8425839242999046,1
+1,Month-to-month,Fiber optic,73.0,No,Electronic check,0.8415214385358639,1
+1,Month-to-month,DSL,39.65,No,Electronic check,0.8409879277635951,1
+5,Month-to-month,Fiber optic,89.8,No,Electronic check,0.8399391427477012,1
+2,Month-to-month,Fiber optic,104.4,Yes,Electronic check,0.8395788755699044,1
+1,Month-to-month,Fiber optic,85.0,No,Electronic check,0.8395027209427592,0
+1,Month-to-month,DSL,43.3,No,Electronic check,0.8388350196790487,1
+1,Month-to-month,Fiber optic,76.0,No,Electronic check,0.8381868706648938,1
+8,Month-to-month,Fiber optic,105.5,No,Electronic check,0.8371939920919184,1
+1,Month-to-month,Fiber optic,69.25,No,Electronic check,0.8370752224655482,1
+12,Month-to-month,Fiber optic,99.95,Yes,Mailed check,0.8358678487326275,1
+1,Month-to-month,Fiber optic,74.9,No,Electronic check,0.835835064218033,1
+11,Month-to-month,Fiber optic,102.0,No,Electronic check,0.8353002919908089,1
+1,Month-to-month,Fiber optic,72.1,No,Electronic check,0.8351017196877164,0
+10,Month-to-month,Fiber optic,95.35,No,Electronic check,0.83447384602147,1
+4,Month-to-month,Fiber optic,88.85,No,Electronic check,0.8340919358014541,1
+5,Month-to-month,Fiber optic,92.5,No,Electronic check,0.8335628887465113,1
+2,Month-to-month,Fiber optic,82.0,No,Electronic check,0.8335002788240384,1
+12,Month-to-month,Fiber optic,101.35,No,Electronic check,0.8332321967736976,1
+1,Month-to-month,Fiber optic,80.15,No,Credit card (automatic),0.8330924200104737,1
+2,Month-to-month,Fiber optic,93.85,No,Electronic check,0.8328990775595174,1
+10,Month-to-month,Fiber optic,100.25,No,Electronic check,0.8325932966269295,1
+8,Month-to-month,Fiber optic,100.15,Yes,Credit card (automatic),0.8320067486467917,0
+4,Month-to-month,Fiber optic,100.85,Yes,Mailed check,0.8313750636478855,0
+1,Month-to-month,Fiber optic,82.3,No,Electronic check,0.8302923085012633,1
+11,Month-to-month,Fiber optic,94.0,No,Electronic check,0.8301768782650161,1
+4,Month-to-month,Fiber optic,84.8,No,Bank transfer (automatic),0.8290755725108879,1
+3,Month-to-month,Fiber optic,100.95,No,Electronic check,0.828576154245109,1
+7,Month-to-month,Fiber optic,93.85,No,Electronic check,0.8285216074362393,1
+5,Month-to-month,Fiber optic,90.8,No,Electronic check,0.8270072471086639,1
+4,Month-to-month,Fiber optic,91.65,No,Electronic check,0.8270072471086639,1
+7,Month-to-month,Fiber optic,95.35,No,Electronic check,0.8268473995616658,1
+1,Month-to-month,Fiber optic,85.8,No,Mailed check,0.8259849305378136,1
+2,Month-to-month,Fiber optic,91.45,No,Electronic check,0.8254892076094268,0
+11,Month-to-month,Fiber optic,97.85,No,Bank transfer (automatic),0.8251087158291462,1
+4,Month-to-month,Fiber optic,90.05,No,Electronic check,0.8248387506198118,1
+1,Month-to-month,Fiber optic,69.55,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.9,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.9,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,70.05,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.9,No,Electronic check,0.8245301145084645,0
+1,Month-to-month,Fiber optic,70.25,No,Electronic check,0.8245301145084645,0
+1,Month-to-month,Fiber optic,69.8,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.1,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,68.95,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.6,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.85,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,70.35,No,Electronic check,0.8245301145084645,0
+1,Month-to-month,Fiber optic,70.1,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.35,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,70.3,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,70.6,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,70.25,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,70.1,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.5,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.2,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.65,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,70.85,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.15,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.2,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,70.3,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.35,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,69.6,No,Electronic check,0.8245301145084645,1
+1,Month-to-month,Fiber optic,76.35,No,Electronic check,0.8239300561036971,1
+1,Month-to-month,Fiber optic,76.2,No,Electronic check,0.8239300561036971,1
+1,Month-to-month,Fiber optic,74.35,No,Electronic check,0.8222014887899989,1
+1,Month-to-month,Fiber optic,74.7,No,Electronic check,0.8222014887899989,1
+1,Month-to-month,Fiber optic,78.8,No,Electronic check,0.8218217618011233,1
+1,Month-to-month,Fiber optic,78.05,No,Electronic check,0.8218217618011233,1
+1,Month-to-month,Fiber optic,79.55,No,Electronic check,0.8218217618011233,1
+9,Month-to-month,Fiber optic,94.75,No,Electronic check,0.8215343610577116,1
+2,Month-to-month,Fiber optic,95.5,No,Credit card (automatic),0.8205911835117252,0
+8,Month-to-month,Fiber optic,87.05,No,Electronic check,0.8200633054541389,1
+1,Month-to-month,Fiber optic,79.9,No,Electronic check,0.819207692104718,1
+1,Month-to-month,Fiber optic,79.6,No,Electronic check,0.819207692104718,1
+2,Month-to-month,Fiber optic,85.7,No,Electronic check,0.8191237390724716,1
+9,Month-to-month,Fiber optic,99.45,No,Credit card (automatic),0.8187551886779662,1
+1,Month-to-month,Fiber optic,75.3,No,Bank transfer (automatic),0.8185603093018262,1
+1,Month-to-month,Fiber optic,70.55,No,Electronic check,0.8184344940137952,1
+1,Month-to-month,Fiber optic,70.15,No,Electronic check,0.8184344940137952,1
+1,Month-to-month,Fiber optic,70.05,No,Electronic check,0.8184344940137952,0
+1,Month-to-month,Fiber optic,71.25,No,Electronic check,0.8184344940137952,0
+1,Month-to-month,Fiber optic,71.15,No,Electronic check,0.8184344940137952,1
+1,Month-to-month,Fiber optic,71.65,No,Electronic check,0.8184344940137952,1
+1,Month-to-month,Fiber optic,70.3,No,Electronic check,0.8184344940137952,1
+1,Month-to-month,Fiber optic,70.2,No,Electronic check,0.8184344940137952,0
+1,Month-to-month,DSL,40.2,No,Electronic check,0.8184249022741356,1
+1,Month-to-month,Fiber optic,89.55,No,Electronic check,0.818335801109666,1
+1,Month-to-month,Fiber optic,89.9,No,Electronic check,0.818335801109666,1
+1,Month-to-month,Fiber optic,74.3,No,Electronic check,0.8180763285421377,0
+1,Month-to-month,Fiber optic,75.05,No,Mailed check,0.8178837962670031,1
+1,Month-to-month,Fiber optic,74.25,No,Mailed check,0.8178837962670031,1
+1,Month-to-month,Fiber optic,74.6,No,Bank transfer (automatic),0.8178837962670031,1
+8,Month-to-month,Fiber optic,84.9,No,Electronic check,0.8166519373486749,1
+1,Month-to-month,Fiber optic,95.6,No,Electronic check,0.8165747576401265,1
+2,Month-to-month,Fiber optic,95.85,No,Electronic check,0.8160987729268648,1
+1,Month-to-month,Fiber optic,80.3,No,Electronic check,0.8155752419644303,1
+20,Month-to-month,Fiber optic,98.55,No,Electronic check,0.8149093564971449,1
+1,Month-to-month,Fiber optic,80.0,No,Electronic check,0.8133465862978039,1
+1,Month-to-month,Fiber optic,78.65,No,Electronic check,0.8133465862978039,1
+1,Month-to-month,DSL,25.2,No,Electronic check,0.8127994298070654,1
+1,Month-to-month,DSL,24.8,No,Electronic check,0.8127994298070654,1
+1,Month-to-month,Fiber optic,71.65,No,Electronic check,0.8126618868088131,1
+1,Month-to-month,Fiber optic,68.5,No,Electronic check,0.8126618868088131,1
+1,Month-to-month,Fiber optic,70.0,No,Electronic check,0.8126618868088131,1
+1,Month-to-month,Fiber optic,69.8,No,Electronic check,0.8126618868088131,1
+1,Month-to-month,Fiber optic,71.0,No,Electronic check,0.8126618868088131,1
+1,Month-to-month,Fiber optic,69.65,No,Electronic check,0.8126618868088131,1
+1,Month-to-month,Fiber optic,95.0,No,Electronic check,0.812433413235356,1
+7,Month-to-month,Fiber optic,84.55,No,Electronic check,0.8121200356220497,1
+6,Month-to-month,Fiber optic,89.75,No,Electronic check,0.812013323285894,0
+1,Month-to-month,Fiber optic,84.5,No,Electronic check,0.8108525632414432,1
+10,Month-to-month,Fiber optic,102.1,No,Credit card (automatic),0.8107260763618706,1
+9,Month-to-month,Fiber optic,99.3,No,Credit card (automatic),0.8104877154052222,0
+1,Month-to-month,Fiber optic,74.7,No,Electronic check,0.8102120133179748,1
+1,Month-to-month,Fiber optic,75.35,No,Electronic check,0.8102120133179748,1
+13,Month-to-month,Fiber optic,95.25,No,Electronic check,0.8101449461855472,1
+1,Month-to-month,Fiber optic,75.8,No,Electronic check,0.8095330914856854,1
+6,Month-to-month,Fiber optic,93.55,No,Bank transfer (automatic),0.8088798927064287,1
+1,Month-to-month,Fiber optic,89.3,No,Electronic check,0.8086873347651526,1
+9,Month-to-month,Fiber optic,95.5,No,Electronic check,0.8084195906157474,1
+12,Month-to-month,Fiber optic,100.15,No,Bank transfer (automatic),0.8083338774521005,1
+1,Month-to-month,Fiber optic,69.5,No,Bank transfer (automatic),0.8078623534422369,1
+3,Month-to-month,Fiber optic,85.3,No,Electronic check,0.8073555031975148,1
+12,Month-to-month,Fiber optic,91.3,No,Electronic check,0.8072484617571648,1
+9,Month-to-month,Fiber optic,90.1,No,Electronic check,0.8051272737508687,0
+13,Month-to-month,Fiber optic,106.9,No,Electronic check,0.8048013922727225,1
+4,Month-to-month,Fiber optic,89.2,No,Electronic check,0.8044812079019313,1
+3,Month-to-month,DSL,29.6,No,Electronic check,0.8033912397814812,1
+4,Month-to-month,Fiber optic,85.65,No,Electronic check,0.8021092133352649,1
+5,Month-to-month,Fiber optic,83.15,No,Credit card (automatic),0.8010146041262942,1
+5,Month-to-month,Fiber optic,84.0,No,Electronic check,0.8009858591302587,0
+2,Month-to-month,Fiber optic,86.85,No,Mailed check,0.8006197544698958,1
+3,Month-to-month,Fiber optic,105.35,No,Bank transfer (automatic),0.7997448715050027,1
+8,Month-to-month,Fiber optic,94.0,No,Electronic check,0.7991844825264771,1
+1,Month-to-month,Fiber optic,74.6,No,Mailed check,0.7971160493363002,1
+10,Month-to-month,Fiber optic,94.9,No,Electronic check,0.7968795710779993,1
+2,Month-to-month,Fiber optic,79.6,No,Electronic check,0.796434147668969,1
+5,Month-to-month,Fiber optic,104.1,No,Mailed check,0.7960205084788117,1
+3,Month-to-month,Fiber optic,84.75,No,Bank transfer (automatic),0.7958672420883173,1
+7,Month-to-month,Fiber optic,95.6,No,Bank transfer (automatic),0.7955527168224069,1
+12,Month-to-month,Fiber optic,94.2,No,Electronic check,0.7952146178665681,1
+3,Month-to-month,Fiber optic,74.4,No,Electronic check,0.794215520710353,1
+2,Month-to-month,Fiber optic,86.0,No,Electronic check,0.7940691415257303,1
+4,Month-to-month,Fiber optic,99.6,No,Electronic check,0.7926260345438657,1
+1,Month-to-month,Fiber optic,89.15,No,Mailed check,0.7925389070074669,1
+12,Month-to-month,Fiber optic,99.45,No,Electronic check,0.7918996671044859,1
+2,Month-to-month,Fiber optic,89.55,No,Bank transfer (automatic),0.7916545891755317,1
+1,Month-to-month,DSL,25.1,No,Electronic check,0.7912249896817802,1
+1,Month-to-month,Fiber optic,69.1,No,Electronic check,0.7910605025661657,1
+4,Month-to-month,Fiber optic,88.95,No,Electronic check,0.7909823121528815,1
+1,Month-to-month,Fiber optic,80.5,No,Electronic check,0.7905748836283649,1
+16,Month-to-month,Fiber optic,98.75,No,Electronic check,0.7904734575069876,1
+2,Month-to-month,Fiber optic,80.2,No,Electronic check,0.7904343659986849,1
+14,Month-to-month,Fiber optic,100.55,No,Electronic check,0.7900765564288057,1
+11,Month-to-month,Fiber optic,104.05,Yes,Bank transfer (automatic),0.7898624664660852,1
+7,Month-to-month,Fiber optic,90.45,No,Electronic check,0.7894300339099587,1
+7,Month-to-month,Fiber optic,86.5,No,Electronic check,0.7894300339099587,1
+6,Month-to-month,Fiber optic,90.1,No,Electronic check,0.7891680475870528,1
+15,Month-to-month,Fiber optic,101.1,No,Electronic check,0.7878007779473011,1
+1,Month-to-month,Fiber optic,71.0,No,Electronic check,0.7876888753598388,1
+1,Month-to-month,Fiber optic,70.45,No,Mailed check,0.7875260394694162,1
+1,Month-to-month,Fiber optic,70.6,No,Mailed check,0.7875260394694162,0
+12,Month-to-month,Fiber optic,106.7,No,Electronic check,0.7872048632791558,1
+4,Month-to-month,Fiber optic,93.5,Yes,Electronic check,0.7868140166553578,1
+10,Month-to-month,Fiber optic,98.7,No,Electronic check,0.7866022901892983,1
+1,Month-to-month,Fiber optic,89.25,No,Electronic check,0.7863807137401482,0
+3,Month-to-month,Fiber optic,75.85,No,Electronic check,0.7853524743861953,1
+3,Month-to-month,Fiber optic,105.9,No,Electronic check,0.7848235021346839,1
+4,Month-to-month,Fiber optic,101.15,No,Electronic check,0.7847071375972972,1
+8,Month-to-month,Fiber optic,101.35,No,Electronic check,0.7842796584314669,1
+4,Month-to-month,Fiber optic,84.6,No,Electronic check,0.7842577422377669,1
+5,Month-to-month,Fiber optic,89.5,No,Electronic check,0.784165965843138,1
+5,Month-to-month,Fiber optic,91.4,No,Electronic check,0.7839326146093109,1
+1,Month-to-month,Fiber optic,71.55,No,Mailed check,0.7838343484500967,1
+1,Month-to-month,Fiber optic,70.6,No,Mailed check,0.7838343484500967,0
+1,Month-to-month,Fiber optic,70.8,No,Mailed check,0.7838343484500967,1
+1,Month-to-month,Fiber optic,69.95,No,Mailed check,0.7838343484500967,1
+1,Month-to-month,Fiber optic,69.4,No,Mailed check,0.7838343484500967,1
+1,Month-to-month,Fiber optic,70.7,No,Mailed check,0.7838343484500967,0
+1,Month-to-month,Fiber optic,70.15,No,Mailed check,0.7838343484500967,1
+1,Month-to-month,Fiber optic,71.35,No,Mailed check,0.7838343484500967,1
+1,Month-to-month,Fiber optic,70.15,No,Mailed check,0.7838343484500967,1
+5,Month-to-month,Fiber optic,96.25,No,Electronic check,0.7835919195068017,1
+5,Month-to-month,Fiber optic,85.3,No,Electronic check,0.7826409887146913,1
+10,Month-to-month,Fiber optic,89.8,No,Electronic check,0.7823525608313946,1
+3,Month-to-month,Fiber optic,98.7,Yes,Electronic check,0.7808705756216205,1
+5,Month-to-month,Fiber optic,94.45,No,Electronic check,0.7804065704253547,1
+6,Month-to-month,Fiber optic,89.35,No,Electronic check,0.7792259643522321,0
+2,Month-to-month,Fiber optic,87.15,No,Bank transfer (automatic),0.7792116697582584,1
+1,Month-to-month,Fiber optic,74.3,No,Credit card (automatic),0.7792001279673085,1
+3,Month-to-month,Fiber optic,75.1,No,Credit card (automatic),0.7791648052361142,1
+1,Month-to-month,DSL,25.25,No,Electronic check,0.7787924264228275,1
+4,Month-to-month,Fiber optic,88.45,No,Electronic check,0.7779054310035441,1
+21,Month-to-month,Fiber optic,103.9,No,Electronic check,0.7778347044264602,1
+4,Month-to-month,Fiber optic,98.1,Yes,Bank transfer (automatic),0.7777554510017265,1
+9,Month-to-month,Fiber optic,84.45,No,Electronic check,0.7777282021714151,1
+9,Month-to-month,Fiber optic,83.85,No,Electronic check,0.7777282021714151,1
+6,Month-to-month,Fiber optic,99.95,Yes,Mailed check,0.7755826135311883,1
+5,Month-to-month,Fiber optic,81.3,No,Electronic check,0.7748592033313831,1
+6,Month-to-month,Fiber optic,90.75,No,Electronic check,0.7734543105949763,0
+5,Month-to-month,Fiber optic,99.15,Yes,Mailed check,0.772855419778214,1
+2,Month-to-month,Fiber optic,78.55,No,Electronic check,0.7727989244506257,1
+3,Month-to-month,Fiber optic,76.05,No,Electronic check,0.7724004845915992,1
+1,Month-to-month,Fiber optic,89.35,No,Electronic check,0.7720816201240597,0
+21,Month-to-month,Fiber optic,106.1,Yes,Electronic check,0.771505422016856,1
+6,Month-to-month,Fiber optic,95.75,No,Electronic check,0.7713772120155993,1
+2,Month-to-month,DSL,49.25,No,Electronic check,0.771263480074125,1
+3,Month-to-month,Fiber optic,97.9,Yes,Electronic check,0.770689376806381,1
+10,Month-to-month,Fiber optic,94.85,No,Electronic check,0.7701070784226652,1
+1,Month-to-month,Fiber optic,69.1,No,Mailed check,0.7699814599246252,1
+1,Month-to-month,Fiber optic,70.45,No,Mailed check,0.7699814599246252,1
+1,Month-to-month,Fiber optic,69.9,No,Mailed check,0.7699814599246252,1
+1,Month-to-month,Fiber optic,70.65,No,Mailed check,0.7699814599246252,1
+7,Month-to-month,Fiber optic,86.8,No,Electronic check,0.7698715525471992,1
+3,Month-to-month,Fiber optic,81.35,No,Electronic check,0.7695733908177881,1
+7,Month-to-month,Fiber optic,89.35,No,Credit card (automatic),0.7683072106553599,1
+1,Month-to-month,DSL,48.6,No,Electronic check,0.7679981841764761,0
+4,Month-to-month,Fiber optic,83.25,No,Electronic check,0.767683249516487,0
+3,Month-to-month,Fiber optic,95.1,No,Electronic check,0.7673454767031761,1
+1,Month-to-month,Fiber optic,75.3,No,Electronic check,0.7673082195384124,1
+2,Month-to-month,Fiber optic,76.5,No,Electronic check,0.7665196194307076,1
+9,Month-to-month,Fiber optic,85.35,No,Electronic check,0.7660394553056877,1
+9,Month-to-month,Fiber optic,85.5,No,Electronic check,0.7660394553056877,0
+2,Month-to-month,Fiber optic,86.2,No,Mailed check,0.7650419438255501,1
+4,Month-to-month,Fiber optic,89.6,No,Mailed check,0.764941502062132,1
+1,Month-to-month,DSL,25.8,No,Mailed check,0.7648966641659013,1
+1,Month-to-month,DSL,25.7,No,Mailed check,0.7648966641659013,1
+6,Month-to-month,Fiber optic,109.9,Yes,Credit card (automatic),0.7645618459740421,1
+21,Month-to-month,Fiber optic,104.35,No,Electronic check,0.7640118541746711,0
+4,Month-to-month,Fiber optic,85.65,No,Electronic check,0.7637232630092216,1
+7,Month-to-month,Fiber optic,100.4,Yes,Electronic check,0.7634249358011662,0
+21,Month-to-month,Fiber optic,97.35,No,Electronic check,0.7631462027668231,1
+7,Month-to-month,Fiber optic,84.8,No,Electronic check,0.763049127281866,1
+6,Month-to-month,Fiber optic,89.5,No,Electronic check,0.7625333657669449,1
+1,Month-to-month,Fiber optic,81.7,No,Electronic check,0.7623849877318094,1
+1,Month-to-month,DSL,34.7,No,Electronic check,0.7623304349345252,1
+1,Month-to-month,DSL,35.75,No,Electronic check,0.7623304349345252,1
+1,Month-to-month,DSL,50.35,No,Electronic check,0.7620834106154845,1
+10,Month-to-month,Fiber optic,85.25,No,Electronic check,0.7619012393237122,1
+9,Month-to-month,Fiber optic,83.3,No,Electronic check,0.7619012393237122,1
+13,Month-to-month,Fiber optic,98.0,No,Electronic check,0.7617782586448762,1
+10,Month-to-month,Fiber optic,86.65,No,Electronic check,0.7616085778094337,1
+1,Month-to-month,Fiber optic,84.3,No,Electronic check,0.7613976882727475,1
+10,Month-to-month,Fiber optic,104.4,No,Electronic check,0.7608617508700894,1
+6,Month-to-month,Fiber optic,84.35,No,Electronic check,0.760779925785771,1
+9,Month-to-month,Fiber optic,85.05,No,Electronic check,0.7604065764976199,1
+16,Month-to-month,Fiber optic,96.15,No,Electronic check,0.7590259600180814,1
+16,Month-to-month,Fiber optic,96.4,No,Electronic check,0.7590259600180814,1
+6,Month-to-month,Fiber optic,82.85,No,Electronic check,0.7589954794398166,1
+14,Month-to-month,Fiber optic,104.85,No,Electronic check,0.7589577861431881,1
+8,Month-to-month,Fiber optic,84.0,No,Electronic check,0.7588746681045313,1
+24,Month-to-month,Fiber optic,98.75,No,Electronic check,0.7584671009211742,1
+7,Month-to-month,Fiber optic,89.5,No,Electronic check,0.7583657000060445,1
+3,Month-to-month,Fiber optic,76.95,No,Electronic check,0.7575306040558694,1
+3,Month-to-month,Fiber optic,75.8,No,Electronic check,0.7570076547596405,1
+3,Month-to-month,Fiber optic,91.05,No,Electronic check,0.7568662393244122,1
+14,Month-to-month,Fiber optic,100.2,No,Electronic check,0.7562936994759359,1
+8,Month-to-month,Fiber optic,92.1,No,Electronic check,0.7556921074387236,1
+4,Month-to-month,Fiber optic,87.1,Yes,Mailed check,0.755212366093428,1
+1,Month-to-month,DSL,25.05,No,Electronic check,0.7544826144129642,1
+6,Month-to-month,Fiber optic,94.05,No,Mailed check,0.7544729543831885,0
+1,Month-to-month,DSL,35.45,No,Electronic check,0.7540715173956526,1
+1,Month-to-month,DSL,35.55,No,Electronic check,0.7540715173956526,1
+5,Month-to-month,Fiber optic,78.75,No,Electronic check,0.7540502435450726,1
+11,Month-to-month,Fiber optic,95.0,No,Electronic check,0.7539252922457687,1
+2,Month-to-month,Fiber optic,75.55,No,Electronic check,0.7539231637366238,1
+72,One year,Fiber optic,117.8,Yes,Bank transfer (automatic),0.7535729010870095,1
+13,Month-to-month,Fiber optic,82.0,No,Electronic check,0.7530442953646997,1
+1,Month-to-month,Fiber optic,70.0,No,Electronic check,0.752680605924559,1
+1,Month-to-month,Fiber optic,71.35,No,Electronic check,0.752680605924559,1
+1,Month-to-month,Fiber optic,70.1,No,Electronic check,0.752680605924559,0
+1,Month-to-month,Fiber optic,70.5,No,Electronic check,0.752680605924559,1
+1,Month-to-month,Fiber optic,70.4,No,Electronic check,0.752680605924559,1
+1,Month-to-month,Fiber optic,69.95,No,Electronic check,0.752680605924559,1
+1,Month-to-month,Fiber optic,68.65,No,Electronic check,0.752680605924559,1
+2,Month-to-month,Fiber optic,80.95,No,Electronic check,0.7519279786892439,1
+2,Month-to-month,DSL,55.3,No,Electronic check,0.7510880095189579,0
+2,Month-to-month,Fiber optic,90.4,No,Electronic check,0.7510432116819156,1
+1,Month-to-month,DSL,25.05,No,Mailed check,0.7510150994317352,1
+4,Month-to-month,Fiber optic,74.9,No,Electronic check,0.7502495038894796,1
+1,Month-to-month,Fiber optic,74.35,No,Electronic check,0.7496879448187772,0
+3,Month-to-month,Fiber optic,74.75,No,Credit card (automatic),0.7494294692282185,1
+8,Month-to-month,Fiber optic,94.2,No,Electronic check,0.748978020238985,1
+8,Month-to-month,Fiber optic,103.35,Yes,Bank transfer (automatic),0.7486099347757857,1
+2,Month-to-month,Fiber optic,84.05,No,Electronic check,0.748413707271791,0
+3,Month-to-month,Fiber optic,91.5,No,Credit card (automatic),0.7483247962741975,1
+2,Month-to-month,Fiber optic,85.85,No,Electronic check,0.7474882692056686,1
+15,Month-to-month,Fiber optic,100.15,No,Electronic check,0.7471586420152115,0
+24,Month-to-month,Fiber optic,104.65,No,Electronic check,0.7469221725881205,1
+1,Month-to-month,Fiber optic,70.85,No,Mailed check,0.746496281324788,1
+16,Month-to-month,Fiber optic,100.0,No,Electronic check,0.7462975172172789,1
+4,Month-to-month,Fiber optic,76.05,No,Electronic check,0.7460906361289263,1
+5,Month-to-month,Fiber optic,96.1,Yes,Electronic check,0.7456938836722752,1
+9,Month-to-month,Fiber optic,98.3,No,Credit card (automatic),0.7450973554377944,1
+3,Month-to-month,Fiber optic,75.5,No,Electronic check,0.7450383444934651,1
+8,Month-to-month,Fiber optic,94.7,No,Electronic check,0.7450117331029428,1
+1,Month-to-month,Fiber optic,73.5,No,Bank transfer (automatic),0.7442085630169962,1
+23,Month-to-month,Fiber optic,106.4,No,Electronic check,0.743727389677252,1
+3,Month-to-month,Fiber optic,75.05,No,Credit card (automatic),0.7435029121757414,1
+1,Month-to-month,Fiber optic,69.95,No,Credit card (automatic),0.7416430294960391,0
+12,Month-to-month,Fiber optic,84.45,No,Electronic check,0.7404906147959532,1
+3,Month-to-month,Fiber optic,86.85,No,Electronic check,0.7402289344159616,1
+8,Month-to-month,Fiber optic,90.25,Yes,Electronic check,0.7401779510424578,0
+24,Month-to-month,Fiber optic,101.25,No,Electronic check,0.7396862502618278,1
+24,Month-to-month,Fiber optic,104.25,No,Electronic check,0.7396862502618278,1
+12,Month-to-month,Fiber optic,96.0,No,Electronic check,0.7389551006650508,1
+4,Month-to-month,Fiber optic,80.3,No,Mailed check,0.7388431874257442,0
+2,Month-to-month,Fiber optic,79.95,No,Electronic check,0.7386352873890611,0
+5,Month-to-month,Fiber optic,82.75,Yes,Electronic check,0.7379780594029567,0
+3,Month-to-month,Fiber optic,92.0,No,Electronic check,0.7378604024801969,0
+24,Month-to-month,Fiber optic,93.55,No,Electronic check,0.7377631899825711,1
+4,Month-to-month,Fiber optic,74.45,No,Electronic check,0.7375120990362227,0
+7,Month-to-month,Fiber optic,85.2,No,Mailed check,0.7374196123780348,1
+15,Month-to-month,Fiber optic,103.45,Yes,Electronic check,0.7368599695285081,0
+15,Month-to-month,Fiber optic,99.7,No,Electronic check,0.7363039632190894,0
+1,Month-to-month,Fiber optic,84.6,No,Mailed check,0.7361860339105718,1
+1,Month-to-month,Fiber optic,90.1,No,Electronic check,0.7361106002230865,0
+13,Month-to-month,Fiber optic,84.6,No,Electronic check,0.7360562042707094,1
+9,Month-to-month,Fiber optic,102.6,No,Credit card (automatic),0.7358891116306182,0
+2,Month-to-month,Fiber optic,75.9,No,Electronic check,0.7358329768083764,1
+8,Month-to-month,Fiber optic,100.85,No,Electronic check,0.7357074340060006,1
+7,Month-to-month,Fiber optic,94.25,No,Electronic check,0.7355522844434201,1
+6,Month-to-month,Fiber optic,80.8,No,Electronic check,0.7352019873938886,0
+5,Month-to-month,Fiber optic,81.0,No,Electronic check,0.7344006607806564,1
+13,Month-to-month,Fiber optic,90.5,No,Electronic check,0.7338401581734062,1
+3,Month-to-month,Fiber optic,79.65,Yes,Bank transfer (automatic),0.7337226158855539,1
+2,Month-to-month,DSL,30.4,No,Electronic check,0.7336215433835781,1
+10,Month-to-month,Fiber optic,85.6,No,Electronic check,0.7334082111155279,1
+4,Month-to-month,Fiber optic,74.65,No,Electronic check,0.7332165497010522,1
+4,Month-to-month,Fiber optic,75.65,No,Electronic check,0.7332165497010522,0
+7,Month-to-month,Fiber optic,75.4,No,Electronic check,0.733164466017536,0
+2,Month-to-month,Fiber optic,79.45,No,Electronic check,0.7327088483947705,0
+2,Month-to-month,Fiber optic,79.2,No,Electronic check,0.731278114524836,1
+6,Month-to-month,Fiber optic,74.9,No,Electronic check,0.7308824284516201,1
+8,Month-to-month,Fiber optic,86.55,No,Electronic check,0.7307714504206726,1
+19,Month-to-month,Fiber optic,99.95,No,Electronic check,0.7302464706062709,1
+7,Month-to-month,Fiber optic,75.35,No,Electronic check,0.7288239291554114,0
+7,Month-to-month,Fiber optic,74.9,No,Electronic check,0.7288239291554114,1
+1,Month-to-month,Fiber optic,70.6,No,Mailed check,0.7286423797058578,1
+1,Month-to-month,Fiber optic,69.55,No,Mailed check,0.7286423797058578,1
+1,Month-to-month,Fiber optic,71.1,No,Mailed check,0.7286423797058578,0
+1,Month-to-month,Fiber optic,70.9,No,Mailed check,0.7286423797058578,1
+1,Month-to-month,Fiber optic,71.1,No,Mailed check,0.7286423797058578,1
+1,Month-to-month,Fiber optic,69.4,No,Mailed check,0.7286423797058578,1
+1,Month-to-month,Fiber optic,70.75,No,Mailed check,0.7286423797058578,1
+1,Month-to-month,Fiber optic,69.7,No,Bank transfer (automatic),0.7286423797058578,1
+22,Month-to-month,Fiber optic,96.7,No,Electronic check,0.7283854603845136,1
+7,Month-to-month,Fiber optic,89.0,No,Electronic check,0.7282925708548678,0
+5,Month-to-month,Fiber optic,80.15,No,Electronic check,0.7277898758356101,1
+3,Month-to-month,Fiber optic,94.9,No,Electronic check,0.7273523727295811,0
+3,Month-to-month,Fiber optic,79.4,No,Electronic check,0.7272887012876569,1
+3,Month-to-month,Fiber optic,70.3,No,Electronic check,0.7268343880890055,1
+17,Month-to-month,Fiber optic,102.55,No,Electronic check,0.7267918735767124,0
+3,Month-to-month,Fiber optic,99.0,No,Credit card (automatic),0.7260855761451419,1
+3,Month-to-month,Fiber optic,74.25,No,Electronic check,0.7260847092409408,1
+3,Month-to-month,Fiber optic,74.95,No,Electronic check,0.7260847092409408,0
+13,Month-to-month,Fiber optic,100.35,No,Electronic check,0.7254345758134697,1
+13,Month-to-month,Fiber optic,100.8,No,Electronic check,0.7238063963531861,1
+2,Month-to-month,Fiber optic,79.75,No,Bank transfer (automatic),0.7234868387760344,1
+6,Month-to-month,Fiber optic,84.4,No,Electronic check,0.7232524321690106,1
+4,Month-to-month,Fiber optic,84.05,No,Bank transfer (automatic),0.7230284136477416,1
+14,Month-to-month,Fiber optic,89.95,Yes,Electronic check,0.7229582331424098,1
+8,Month-to-month,Fiber optic,73.5,No,Electronic check,0.7218617309889904,0
+4,Month-to-month,Fiber optic,94.75,No,Electronic check,0.7213040213463968,0
+3,Month-to-month,Fiber optic,77.0,No,Electronic check,0.7210966431046302,1
+1,Month-to-month,Fiber optic,69.75,No,Bank transfer (automatic),0.720845724771558,1
+13,Month-to-month,Fiber optic,91.1,No,Electronic check,0.7205526853268525,1
+3,Month-to-month,Fiber optic,79.9,No,Electronic check,0.7204080372489843,1
+15,Month-to-month,Fiber optic,93.35,No,Electronic check,0.720156544008516,1
+8,Month-to-month,Fiber optic,75.75,No,Electronic check,0.7198810477692099,1
+8,Month-to-month,Fiber optic,81.25,No,Electronic check,0.7198810477692099,1
+5,Month-to-month,Fiber optic,84.85,No,Mailed check,0.719688807904337,1
+5,Month-to-month,Fiber optic,74.35,No,Electronic check,0.718210581892049,1
+11,Month-to-month,Fiber optic,111.4,Yes,Electronic check,0.7180291364804481,0
+12,Month-to-month,Fiber optic,86.55,No,Electronic check,0.7180102103735064,0
+13,Month-to-month,Fiber optic,95.05,No,Electronic check,0.7178312559667518,1
+7,Month-to-month,Fiber optic,96.2,No,Electronic check,0.7176580143574652,0
+6,Month-to-month,Fiber optic,75.5,No,Electronic check,0.7175291758691432,1
+12,Month-to-month,Fiber optic,94.55,No,Electronic check,0.7172343514546698,0
+4,Month-to-month,Fiber optic,81.0,No,Electronic check,0.7159403916981468,1
+2,Month-to-month,Fiber optic,80.6,No,Mailed check,0.7155400667853383,1
+7,Month-to-month,Fiber optic,73.85,No,Electronic check,0.7154083079603523,1
+3,Month-to-month,Fiber optic,80.35,No,Electronic check,0.7149798926137263,0
+11,Month-to-month,Fiber optic,95.15,No,Bank transfer (automatic),0.7143469742514986,1
+1,Month-to-month,Fiber optic,75.35,No,Credit card (automatic),0.7138748137872332,0
+5,Month-to-month,Fiber optic,79.9,No,Bank transfer (automatic),0.7137586212815801,1
+4,Month-to-month,Fiber optic,74.35,No,Electronic check,0.7137217763661969,1
+4,Month-to-month,Fiber optic,74.4,No,Mailed check,0.7126897207909828,1
+7,Month-to-month,Fiber optic,95.0,No,Mailed check,0.7126033735505319,1
+14,Month-to-month,Fiber optic,86.1,No,Electronic check,0.7123136205970548,1
+10,Month-to-month,Fiber optic,95.25,No,Electronic check,0.7109969422564026,0
+8,Month-to-month,Fiber optic,95.65,No,Bank transfer (automatic),0.7109402937900524,1
+18,Month-to-month,Fiber optic,95.45,No,Electronic check,0.7098851958416191,1
+17,Month-to-month,Fiber optic,94.2,No,Electronic check,0.7098851958416191,0
+17,Month-to-month,Fiber optic,92.55,No,Electronic check,0.7098851958416191,0
+20,Month-to-month,Fiber optic,94.55,No,Electronic check,0.709530824187591,1
+34,Month-to-month,Fiber optic,97.65,No,Electronic check,0.7085697191518782,1
+9,Month-to-month,Fiber optic,94.4,No,Electronic check,0.707746857823005,1
+4,Month-to-month,Fiber optic,99.8,No,Credit card (automatic),0.7071778508770815,1
+5,Month-to-month,Fiber optic,80.6,No,Electronic check,0.70666564061216,1
+6,Month-to-month,Fiber optic,80.5,Yes,Electronic check,0.7064699094061601,1
+2,Month-to-month,Fiber optic,79.75,No,Electronic check,0.7064274149609627,1
+9,Month-to-month,Fiber optic,74.05,No,Electronic check,0.7059367310957405,0
+7,Month-to-month,Fiber optic,84.35,No,Electronic check,0.7058914022101883,0
+1,Month-to-month,Fiber optic,75.9,Yes,Electronic check,0.7057691731825696,1
+14,Month-to-month,Fiber optic,95.6,No,Electronic check,0.705605668877788,0
+2,Month-to-month,Fiber optic,79.65,No,Mailed check,0.7046866588809564,1
+3,Month-to-month,Fiber optic,80.3,No,Electronic check,0.7046067441528371,1
+12,Month-to-month,Fiber optic,89.15,No,Electronic check,0.7039002311088229,0
+5,Month-to-month,Fiber optic,85.4,Yes,Electronic check,0.7033776436494757,1
+8,Month-to-month,Fiber optic,94.45,No,Credit card (automatic),0.7033415446173039,1
+2,Month-to-month,Fiber optic,94.2,Yes,Electronic check,0.702771346412173,1
+10,Month-to-month,Fiber optic,88.85,No,Electronic check,0.7027689720715496,0
+24,Month-to-month,Fiber optic,101.05,No,Electronic check,0.7021852862689627,1
+1,Month-to-month,Fiber optic,73.6,No,Mailed check,0.7021585577370822,1
+4,Month-to-month,Fiber optic,80.8,Yes,Credit card (automatic),0.7020313010408585,1
+7,Month-to-month,Fiber optic,86.25,No,Electronic check,0.7012879750566452,1
+7,Month-to-month,Fiber optic,79.7,No,Electronic check,0.7012879750566452,1
+9,Month-to-month,Fiber optic,74.75,No,Electronic check,0.7012488404069485,1
+9,Month-to-month,Fiber optic,75.85,No,Electronic check,0.7012488404069485,0
+10,Month-to-month,Fiber optic,74.75,No,Electronic check,0.7012488404069485,1
+12,Month-to-month,Fiber optic,98.9,Yes,Bank transfer (automatic),0.7011702284534718,1
+6,Month-to-month,Fiber optic,84.85,No,Electronic check,0.7009578660916403,1
+14,Month-to-month,Fiber optic,85.15,No,Electronic check,0.700876036148966,1
+1,Month-to-month,DSL,29.7,No,Mailed check,0.700820098829399,1
+2,Month-to-month,Fiber optic,75.45,No,Mailed check,0.7001790825300093,1
+2,Month-to-month,Fiber optic,72.6,No,Mailed check,0.7001790825300093,0
+2,Month-to-month,Fiber optic,74.85,No,Mailed check,0.7001790825300093,1
+7,Month-to-month,Fiber optic,74.85,No,Electronic check,0.6998107659831604,0
+2,Month-to-month,Fiber optic,83.8,No,Bank transfer (automatic),0.6995723191395457,0
+6,Month-to-month,Fiber optic,84.2,No,Electronic check,0.6983595774077339,1
+5,Month-to-month,Fiber optic,89.35,Yes,Electronic check,0.6979958401079419,1
+13,Month-to-month,Fiber optic,96.85,No,Electronic check,0.6976157622935828,0
+2,Month-to-month,Fiber optic,75.8,No,Electronic check,0.6972184118238227,1
+8,Month-to-month,Fiber optic,87.1,No,Electronic check,0.6961401558902817,0
+10,Month-to-month,Fiber optic,89.5,No,Electronic check,0.6960358181415898,1
+1,Month-to-month,DSL,45.3,No,Mailed check,0.6952927634847683,1
+8,Month-to-month,Fiber optic,85.2,No,Credit card (automatic),0.6949902036108425,1
+4,Month-to-month,Fiber optic,72.2,No,Bank transfer (automatic),0.6948549819880582,1
+8,Month-to-month,Fiber optic,94.75,No,Electronic check,0.6946095893501107,0
+2,Month-to-month,Fiber optic,80.65,No,Electronic check,0.6941560609110102,1
+2,Month-to-month,Fiber optic,80.2,No,Electronic check,0.6941560609110102,1
+2,Month-to-month,Fiber optic,80.25,No,Electronic check,0.6941560609110102,1
+3,Month-to-month,Fiber optic,74.1,No,Credit card (automatic),0.6936775314096101,1
+3,Month-to-month,Fiber optic,89.45,No,Electronic check,0.6933040607658693,1
+5,Month-to-month,Fiber optic,85.75,Yes,Electronic check,0.6932495109233592,1
+24,Month-to-month,Fiber optic,104.15,No,Electronic check,0.6930885248897805,0
+9,Month-to-month,Fiber optic,84.4,No,Credit card (automatic),0.6926281857881813,1
+7,Month-to-month,Fiber optic,89.15,No,Electronic check,0.6925099009788072,0
+11,Month-to-month,Fiber optic,89.2,No,Electronic check,0.6923710993995648,0
+5,Month-to-month,Fiber optic,85.3,No,Mailed check,0.6922849121426853,0
+15,Month-to-month,Fiber optic,91.0,No,Electronic check,0.6921062416902842,0
+9,Month-to-month,Fiber optic,85.35,No,Bank transfer (automatic),0.6918829515000193,1
+17,Month-to-month,Fiber optic,94.8,No,Electronic check,0.6916452910133005,0
+9,Month-to-month,Fiber optic,80.85,No,Electronic check,0.6915490729575222,1
+8,Month-to-month,Fiber optic,85.2,No,Electronic check,0.6914407681049384,0
+21,Month-to-month,Fiber optic,94.25,No,Electronic check,0.6912783288014516,1
+19,Month-to-month,Fiber optic,94.95,No,Electronic check,0.6912783288014516,0
+14,Month-to-month,Fiber optic,74.3,No,Electronic check,0.6910505897837733,1
+5,Month-to-month,Fiber optic,80.0,No,Electronic check,0.6908446437119399,1
+1,Month-to-month,Fiber optic,91.7,Yes,Electronic check,0.690330944630549,1
+10,Month-to-month,Fiber optic,99.85,Yes,Electronic check,0.6895072096783529,1
+12,Month-to-month,Fiber optic,89.75,No,Bank transfer (automatic),0.6894704597358229,1
+10,One year,Fiber optic,98.9,No,Electronic check,0.6894162389314993,0
+16,Month-to-month,Fiber optic,84.75,No,Electronic check,0.6894017293498749,1
+1,Month-to-month,Fiber optic,84.8,Yes,Electronic check,0.689281681218726,1
+2,Month-to-month,DSL,35.1,No,Electronic check,0.6892037730665099,1
+2,Month-to-month,Fiber optic,74.2,No,Electronic check,0.6889679625054204,0
+9,Month-to-month,Fiber optic,90.8,No,Bank transfer (automatic),0.6887601349176928,1
+8,Month-to-month,Fiber optic,85.65,No,Bank transfer (automatic),0.6880610746605847,0
+6,Month-to-month,Fiber optic,91.1,No,Electronic check,0.6877433302822964,1
+8,Month-to-month,Fiber optic,74.85,No,Electronic check,0.6876970293979253,0
+8,Month-to-month,Fiber optic,75.25,No,Electronic check,0.6876970293979253,0
+14,Month-to-month,Fiber optic,78.95,No,Electronic check,0.6876216822704602,1
+9,Month-to-month,Fiber optic,76.85,No,Electronic check,0.6870547876896836,0
+9,Month-to-month,Fiber optic,76.25,No,Electronic check,0.6870547876896836,0
+22,Month-to-month,Fiber optic,95.1,No,Electronic check,0.6866142851461077,0
+23,Month-to-month,Fiber optic,93.5,No,Electronic check,0.6861685872726437,0
+2,Month-to-month,Fiber optic,73.25,No,Credit card (automatic),0.6858080898104365,1
+2,Month-to-month,Fiber optic,74.9,No,Mailed check,0.6858080898104365,0
+1,Month-to-month,Fiber optic,74.6,No,Credit card (automatic),0.6854576812026398,0
+16,Month-to-month,Fiber optic,94.45,Yes,Electronic check,0.6854244158341497,1
+1,Month-to-month,DSL,60.15,No,Electronic check,0.6853537168734256,1
+9,Month-to-month,Fiber optic,74.55,No,Electronic check,0.6853041066914974,1
+1,Month-to-month,DSL,24.25,No,Electronic check,0.6851294779646563,1
+1,Month-to-month,DSL,23.45,No,Electronic check,0.6851294779646563,1
+21,Month-to-month,Fiber optic,111.2,Yes,Electronic check,0.6839886796512692,1
+3,Month-to-month,Fiber optic,83.9,Yes,Mailed check,0.6838681157576816,1
+1,Month-to-month,DSL,59.85,No,Electronic check,0.6833183012261516,1
+1,Month-to-month,DSL,35.25,No,Bank transfer (automatic),0.6831670177670177,1
+6,Month-to-month,Fiber optic,87.95,Yes,Bank transfer (automatic),0.6817178340883289,0
+2,Month-to-month,DSL,34.7,No,Electronic check,0.6815413760508526,1
+16,Month-to-month,Fiber optic,88.45,No,Electronic check,0.6814085431815821,1
+6,Month-to-month,Fiber optic,91.0,No,Electronic check,0.6813244995739435,1
+6,Month-to-month,Fiber optic,79.7,No,Electronic check,0.6812827186666006,0
+3,Month-to-month,Fiber optic,80.4,No,Electronic check,0.6811269851408428,1
+18,Month-to-month,Fiber optic,99.4,No,Electronic check,0.6808399823326049,1
+22,Month-to-month,Fiber optic,100.75,No,Electronic check,0.6804661018511846,1
+1,Month-to-month,DSL,55.8,No,Electronic check,0.6802347469635737,1
+25,Month-to-month,Fiber optic,100.25,No,Electronic check,0.6795530264418742,1
+2,Month-to-month,Fiber optic,95.1,Yes,Credit card (automatic),0.6794510414157804,1
+4,Month-to-month,Fiber optic,79.15,No,Electronic check,0.6782186270503316,1
+4,Month-to-month,Fiber optic,79.9,No,Electronic check,0.6782186270503316,1
+26,Month-to-month,Fiber optic,98.35,No,Electronic check,0.6780592503528041,1
+13,Month-to-month,Fiber optic,85.95,No,Electronic check,0.6773516942714799,0
+1,Month-to-month,DSL,45.65,No,Electronic check,0.6766936409370472,1
+1,Month-to-month,DSL,45.3,No,Electronic check,0.6766936409370472,1
+1,Month-to-month,DSL,45.65,No,Electronic check,0.6766936409370472,1
+1,Month-to-month,DSL,45.6,No,Electronic check,0.6766936409370472,1
+14,Month-to-month,Fiber optic,74.95,No,Electronic check,0.6765954633100827,1
+7,Month-to-month,Fiber optic,81.1,No,Electronic check,0.6765178690078639,1
+2,Month-to-month,DSL,24.35,No,Electronic check,0.6763814760756514,1
+14,Month-to-month,Fiber optic,87.25,No,Electronic check,0.6756434594815751,1
+2,Month-to-month,Fiber optic,67.75,No,Electronic check,0.6749940973404276,1
+8,Month-to-month,Fiber optic,80.65,No,Credit card (automatic),0.6745379863900685,1
+4,Month-to-month,Fiber optic,78.85,No,Electronic check,0.6741951143687757,1
+5,Month-to-month,Fiber optic,84.5,No,Electronic check,0.6741089960618756,1
+2,Month-to-month,Fiber optic,90.0,Yes,Credit card (automatic),0.6740974426631193,1
+3,Month-to-month,DSL,35.15,No,Electronic check,0.6739961774533243,1
+1,Month-to-month,DSL,50.5,No,Electronic check,0.6738589263206491,1
+41,Month-to-month,Fiber optic,99.8,No,Electronic check,0.673436730077195,1
+41,Month-to-month,Fiber optic,98.4,No,Electronic check,0.673436730077195,1
+1,Month-to-month,DSL,55.0,No,Electronic check,0.6727496830335639,1
+1,Month-to-month,DSL,55.45,No,Electronic check,0.6727496830335639,0
+1,Month-to-month,DSL,55.25,No,Electronic check,0.6727496830335639,0
+1,Month-to-month,DSL,55.4,No,Electronic check,0.6727496830335639,1
+1,Month-to-month,DSL,56.25,No,Electronic check,0.6727496830335639,1
+3,Month-to-month,Fiber optic,75.15,No,Credit card (automatic),0.6725836963278486,1
+2,Month-to-month,Fiber optic,81.5,No,Mailed check,0.672459760028953,0
+5,Month-to-month,Fiber optic,96.5,No,Bank transfer (automatic),0.6723652357637985,1
+10,Month-to-month,Fiber optic,79.95,No,Electronic check,0.6721723094854163,1
+14,Month-to-month,Fiber optic,80.45,No,Electronic check,0.6716573797085064,1
+2,Month-to-month,Fiber optic,70.35,No,Electronic check,0.6715238735049569,1
+2,Month-to-month,Fiber optic,69.6,No,Electronic check,0.6715238735049569,1
+2,Month-to-month,Fiber optic,70.65,No,Electronic check,0.6715238735049569,1
+10,Month-to-month,Fiber optic,86.05,No,Bank transfer (automatic),0.6714703596697471,1
+1,Month-to-month,DSL,46.0,No,Electronic check,0.6712981736598745,1
+1,Month-to-month,DSL,54.65,No,Electronic check,0.6706719122041611,0
+4,Month-to-month,Fiber optic,73.75,No,Electronic check,0.6706332183110274,1
+23,Month-to-month,Fiber optic,104.45,No,Electronic check,0.6704391050777958,0
+2,Month-to-month,Fiber optic,89.5,No,Electronic check,0.6700002954151394,1
+10,Month-to-month,Fiber optic,85.55,No,Electronic check,0.6693694546735977,1
+4,Month-to-month,Fiber optic,80.35,No,Electronic check,0.6693279755607966,1
+3,Month-to-month,Fiber optic,78.5,No,Electronic check,0.6693279755607966,1
+3,Month-to-month,Fiber optic,79.4,No,Electronic check,0.6693279755607966,1
+4,Month-to-month,Fiber optic,79.0,No,Electronic check,0.6693279755607966,1
+3,Month-to-month,Fiber optic,91.85,No,Electronic check,0.6681393893380896,1
+13,Month-to-month,Fiber optic,84.45,No,Electronic check,0.6681166044401623,1
+18,Month-to-month,Fiber optic,94.7,No,Electronic check,0.6679779823563328,1
+18,Month-to-month,Fiber optic,94.75,No,Electronic check,0.6679779823563328,0
+4,Month-to-month,Fiber optic,82.85,No,Credit card (automatic),0.6678299233498318,0
+21,Month-to-month,Fiber optic,94.3,No,Electronic check,0.6675963908652013,0
+9,Month-to-month,Fiber optic,79.75,No,Electronic check,0.6670953302799618,0
+3,Month-to-month,Fiber optic,70.4,No,Electronic check,0.6666800780207899,1
+2,Month-to-month,Fiber optic,69.7,No,Electronic check,0.6666365610908213,0
+2,Month-to-month,Fiber optic,70.7,No,Electronic check,0.6666365610908213,1
+2,Month-to-month,Fiber optic,69.8,No,Electronic check,0.6666365610908213,0
+2,Month-to-month,Fiber optic,70.3,No,Electronic check,0.6666365610908213,0
+2,Month-to-month,Fiber optic,70.95,No,Electronic check,0.6666365610908213,1
+12,Month-to-month,Fiber optic,84.05,No,Electronic check,0.6660265553457451,0
+16,Month-to-month,Fiber optic,84.95,No,Electronic check,0.6656454648139004,1
+3,Month-to-month,Fiber optic,88.35,Yes,Mailed check,0.6650850323299687,1
+5,Month-to-month,Fiber optic,81.0,No,Credit card (automatic),0.664464524842788,1
