@@ -114,6 +114,13 @@ def risk_level(proba: float) -> str:
         return "High"
 
 
+RECOMMENDATION_BY_RISK = {
+    "High": "Immediate outreach",
+    "Medium": "Monitor closely",
+    "Low": "Standard care",
+}
+
+
 def predict_churn(customer_dict: dict):
     """Return probability and risk level for one customer."""
     if model is None or preprocessor is None:
@@ -320,10 +327,7 @@ elif page == "🔮 Predict Churn":
             with m2:
                 st.markdown(f"### {emoji} Risk Level: **:{color}[{risk}]**")
             with m3:
-                st.metric("Recommendation", 
-                         "Immediate outreach" if risk == "High" 
-                         else "Monitor closely" if risk == "Medium" 
-                         else "Standard care")
+                st.metric("Recommendation", RECOMMENDATION_BY_RISK[risk])
 
             # Progress bar style visual
             st.progress(proba)
@@ -403,6 +407,7 @@ elif page == "📁 Batch Upload":
         results = raw_df.copy()
         results["ChurnProbability"] = probabilities
         results["RiskLevel"] = [risk_level(p) for p in probabilities]
+        results["Recommendation"] = results["RiskLevel"].map(RECOMMENDATION_BY_RISK)
         results = results.sort_values("ChurnProbability", ascending=False)
 
         st.markdown("---")
@@ -429,6 +434,87 @@ elif page == "📁 Batch Upload":
             file_name="churn_predictions.csv",
             mime="text/csv",
         )
+
+        # ---------------------------------------------
+        # Summary & Prevention Recommendations
+        # ---------------------------------------------
+        st.markdown("---")
+        st.subheader("📝 Summary & Prevention Recommendations")
+
+        high_risk_df = results[results["RiskLevel"] == "High"]
+
+        if high_risk_df.empty:
+            st.success("No high-risk customers in this batch — no urgent action needed.")
+        else:
+            pct_high = len(high_risk_df) / len(results) * 100
+            st.markdown(
+                f"**{len(high_risk_df):,} of {len(results):,} customers ({pct_high:.1f}%) "
+                "are at high risk of churning.** Patterns driving that risk in this batch:"
+            )
+
+            drivers = []
+            if "Contract" in high_risk_df.columns:
+                mtm_pct = (high_risk_df["Contract"] == "Month-to-month").mean()
+                if mtm_pct >= 0.3:
+                    drivers.append((
+                        f"{mtm_pct*100:.0f}% are on **month-to-month contracts**",
+                        "Offer a discount for switching to a 1–2 year contract.",
+                    ))
+            if "tenure" in high_risk_df.columns:
+                short_tenure_pct = (pd.to_numeric(high_risk_df["tenure"], errors="coerce") <= 12).mean()
+                if short_tenure_pct >= 0.3:
+                    drivers.append((
+                        f"{short_tenure_pct*100:.0f}% have **tenure ≤ 12 months**",
+                        "Prioritize early-lifecycle check-ins and onboarding support.",
+                    ))
+            if {"InternetService", "TechSupport"}.issubset(high_risk_df.columns):
+                fiber_no_support_pct = (
+                    (high_risk_df["InternetService"] == "Fiber optic")
+                    & (high_risk_df["TechSupport"] != "Yes")
+                ).mean()
+                if fiber_no_support_pct >= 0.3:
+                    drivers.append((
+                        f"{fiber_no_support_pct*100:.0f}% have **Fiber optic with no Tech Support**",
+                        "Bundle free or discounted tech support for 3–6 months.",
+                    ))
+            if "PaymentMethod" in high_risk_df.columns:
+                echeck_pct = (high_risk_df["PaymentMethod"] == "Electronic check").mean()
+                if echeck_pct >= 0.3:
+                    drivers.append((
+                        f"{echeck_pct*100:.0f}% pay via **Electronic check**",
+                        "Incentivize switching to auto-pay (card or bank transfer).",
+                    ))
+            if "MonthlyCharges" in high_risk_df.columns:
+                avg_high = pd.to_numeric(high_risk_df["MonthlyCharges"], errors="coerce").mean()
+                avg_all = pd.to_numeric(results["MonthlyCharges"], errors="coerce").mean()
+                if avg_all > 0 and avg_high >= avg_all * 1.1:
+                    drivers.append((
+                        f"average **Monthly Charges** (${avg_high:.0f}) is well above the batch average (${avg_all:.0f})",
+                        "Consider a personalized loyalty discount for high-paying, high-risk customers.",
+                    ))
+
+            if drivers:
+                for finding, action in drivers:
+                    st.markdown(f"- **Finding:** {finding} → **Prevention:** {action}")
+            else:
+                st.info(
+                    "Risk in this batch is spread across varied profiles with no single "
+                    "dominant pattern — review the flagged customers individually below."
+                )
+
+        st.markdown("#### General Prevention Playbook")
+        st.markdown(
+            """
+            | Risk Level | Recommended Action |
+            |------------|---------------------|
+            | 🔴 High | Immediate outreach with a retention offer (contract upgrade, discount, or free service bundle) |
+            | 🟠 Medium | Monitor closely; light-touch engagement (loyalty perks, satisfaction check-in) |
+            | 🟢 Low | Standard care; focus on upsell and satisfaction opportunities |
+            """
+        )
+
+        with st.expander("🔍 View high-risk customers"):
+            st.dataframe(high_risk_df, use_container_width=True)
 
 # -------------------------------------------------
 # PAGE 4: INSIGHTS DASHBOARD
