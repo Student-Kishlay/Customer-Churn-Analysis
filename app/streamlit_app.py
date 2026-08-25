@@ -386,13 +386,18 @@ elif page == "📁 Batch Upload":
             mime="text/csv",
         )
 
-    uploaded_file = st.file_uploader("Upload customer CSV", type=["csv"])
+    uploaded_file = st.file_uploader(
+        "Upload customer file (CSV or Excel)", type=["csv", "xlsx", "xls"]
+    )
 
     if uploaded_file is not None:
         try:
-            raw_df = pd.read_csv(uploaded_file)
+            if uploaded_file.name.lower().endswith((".xlsx", ".xls")):
+                raw_df = pd.read_excel(uploaded_file)
+            else:
+                raw_df = pd.read_csv(uploaded_file)
         except Exception as e:
-            st.error(f"Could not read that file as CSV: {e}")
+            st.error(f"Could not read that file: {e}")
             st.stop()
 
         missing = [c for c in REQUIRED_COLUMNS if c not in raw_df.columns]
